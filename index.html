@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Mistério na Mansão Neblina</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/mansao-neblina.png" alt="A mansão antiga envolta em neblina">
+            <p>Em uma noite fria e enevoada, você recebe uma carta misteriosa convidando-o para investigar estranhos acontecimentos na antiga Mansão Neblina, abandonada há décadas. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar o convite e ir até a mansão</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar o convite e ficar em casa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você chega à mansão. O portão range e o vento sopra entre as árvores. Dentro, há duas portas principais: uma leva à biblioteca e outra ao porão.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na biblioteca</button>
+            <button class="btn-proximo" data-proximo="4">Descer ao porão</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-casa.png" alt="imagem de uma casa segura e silenciosa">
+            <p>Você decide ignorar o convite. Horas depois, a energia acaba e um som de passos ecoa do lado de fora... talvez você devesse ter ido até a mansão.</p>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Na biblioteca, livros antigos e poeirentos cobrem as estantes. Um livro está fora do lugar, com um símbolo estranho na capa.</p>
+            <button class="btn-proximo" data-proximo="5">Abrir o livro misterioso</button>
+            <button class="btn-proximo" data-proximo="6">Ignorar o livro e investigar a lareira</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você desce ao porão escuro e sente o ar gelar. Uma luz fraca pisca no fundo, perto de uma porta trancada.</p>
+            <button class="btn-proximo" data-proximo="7">Forçar a porta</button>
+            <button class="btn-proximo" data-proximo="8">Voltar e subir para o salão principal</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao abrir o livro, um compartimento secreto se revela com uma chave antiga e uma anotação dizendo: “A verdade está sob a névoa”.</p>
+            <button class="btn-proximo" data-proximo="9">Usar a chave para abrir o porão</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Investigando a lareira, você encontra uma passagem secreta atrás dela. Um corredor escuro se estende à frente.</p>
+            <button class="btn-proximo" data-proximo="10">Entrar no corredor</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para o salão principal</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A porta se abre com dificuldade, revelando uma sala com retratos antigos. Um deles se move levemente, revelando um cofre embutido na parede.</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o cofre</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>No salão principal, a neblina começa a entrar pelas janelas. A mansão parece viva. Você sente que precisa descobrir o segredo rapidamente.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a biblioteca</button>
+            <button class="btn-proximo" data-proximo="4">Voltar ao porão</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com a chave antiga, você abre a porta do porão. Dentro, há um cofre idêntico ao retrato da família Neblina.</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o cofre</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O corredor leva até uma cripta subterrânea. No centro, um caixão com o nome “Elisa Neblina” está coberto por poeira e símbolos antigos.</p>
+            <button class="btn-proximo" data-proximo="12">Abrir o caixão</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/tesouro-segredo.png" alt="um cofre antigo aberto com documentos e joias">
+            <p>Dentro do cofre, você encontra o diário da família Neblina. Ele revela que a mansão foi construída sobre um antigo santuário e que o verdadeiro tesouro era o conhecimento perdido ali guardado.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/fantasma-elisa.png" alt="o espírito de Elisa Neblina despertando">
+            <p>Ao abrir o caixão, uma névoa fria toma conta da sala. O espírito de Elisa Neblina desperta, agradecendo por libertá-la da maldição que a prendia há séculos. A mansão finalmente repousa em paz.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
